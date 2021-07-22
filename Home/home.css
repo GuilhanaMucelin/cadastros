@@ -21,13 +21,11 @@ body {
 }
 
 .navbar-button button {
-    width: 110px;
+    width: 120px;
     height: 40px;
     background-color: #78c2ff;
     border: 1px solid #4aa2f2;
     border-radius: 4px;
-    /* display: block;
-    margin-top: 10px; */
     margin-left: 20px;
     font-size: 18px;
 }

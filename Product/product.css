@@ -32,7 +32,7 @@ body {
 }
 
 .product-send button {
-    width: 100px;
+    width: 120px;
     height: 40px;
     background: #78c2ff;
     border: #4aa2f2;
@@ -46,13 +46,14 @@ body {
 }
 
 .product--form-submit {
+    -webkit-appearance: initial;
     font-size: 20px;
-    width: 100px;
+    width: 120px;
     height: 40px;
     background: #78c2ff !important;
     border: #4aa2f2 !important;
     border-radius: 4px !important;
-    color: #fff;
+    color: #fff; 
     margin-left: 10px;
 }
 

@@ -32,7 +32,7 @@ body {
 }
 
 .client-send button {
-    width: 100px;
+    width: 120px;
     height: 40px;
     background: #78c2ff;
     border: #4aa2f2;
@@ -46,8 +46,9 @@ body {
 }
 
 .client--form-submit {
+    -webkit-appearance: initial;
     font-size: 20px;
-    width: 100px;
+    width: 120px;
     height: 40px;
     background: #78c2ff !important;
     border: #4aa2f2 !important;
