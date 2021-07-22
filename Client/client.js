@@ -19,7 +19,7 @@ clientForm.addEventListener('submit', (e) => {
     let convertclientData = JSON.stringify(clientData);
 
     localStorage.setItem(`client${clientCpf}`, convertclientData)
-
+    
 })
 
 

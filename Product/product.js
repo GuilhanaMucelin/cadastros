@@ -17,4 +17,5 @@ productForm.addEventListener('submit', (e) => {
     let convertproductData = JSON.stringify(productData);
 
     localStorage.setItem(`product${productCod}`, convertproductData);
+    
 })
