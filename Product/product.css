@@ -1,0 +1,71 @@
+body {
+    background: #f7f7f7;
+}
+
+.product-copy {
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid #4aa2f2;
+    border-radius: 10px;
+}
+
+.product-form input {
+    background: #f7f7f7;
+    border: none;
+    margin-bottom: 12px;
+    border-bottom: 1px solid;
+    outline: none;
+    border-radius: 0;
+}
+
+.product-send {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-send button {
+    width: 100px;
+    height: 40px;
+    background: #78c2ff;
+    border: #4aa2f2;
+    border-radius: 4px
+}
+
+.product-send a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.product--form-submit {
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    background: #78c2ff !important;
+    border: #4aa2f2 !important;
+    border-radius: 4px !important;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.product-send button:hover,
+.product--form-submit:hover {
+    background-color: #4aa2f2 !important;
+}
+
+.image-product {
+    text-align: center;
+}
+
+.image-product img {
+    width: 100%;
+    height: auto;
+}

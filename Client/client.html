@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Client/client.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="client-copy">
+        <h1>Cadastro de Cliente</h1>
+        <p>Preencha os campos para adicionar os dados do novo cliente no LocalStorage.</p>
+    </div>
+    <form class="client-form" id="client-form" action="">
+        <label for="client-name">Nome</label>
+        <input id="client-name" type="text" placeholder="Nome completo">
+
+        <label for="client-email">E-mail</label>
+        <input id="client-email" type="email" placeholder="exemplo@gama.com">
+
+        
+        <label for="client-phone">Telefone</label>
+        <input id="client-phone" type="tel" placeholder="Ex.: (00) 00000-0000" maxlength="15">
+        
+        <label for="client-cpf">CPF</label>
+        <input id="client-cpf" type="text" placeholder="Ex.: 000.000.000-00" maxlength="14">
+        
+        <label for="client-address">Endereço</label>
+        <input id="client-address" type="text" placeholder="Seu endereço completo, com rua, número e CEP">
+        
+        <div class="client-send">
+        <button><a href="/Home/home.html">Voltar</a></button>
+        <input class="client--form-submit" type="submit" value="Adicionar">
+        </div>
+    </form>
+
+
+    <div class="image-client"> 
+        <img src="/assets/Cadastro.jpg" alt="">
+    </div>
+    <script src="./client.js"></script>
+</body>
+</html>

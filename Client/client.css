@@ -1,0 +1,71 @@
+body {
+    background: #f7f7f7;
+}
+
+.client-copy {
+    font-size: 20px;
+    text-align: center;
+}
+
+.client-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid #4aa2f2;
+    border-radius: 10px;
+}
+
+.client-form input {
+    background: #f7f7f7;
+    border: none;
+    margin-bottom: 12px;
+    border-bottom: 1px solid;
+    outline: none;
+    border-radius: 0;
+}
+
+.client-send {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.client-send button {
+    width: 100px;
+    height: 40px;
+    background: #78c2ff;
+    border: #4aa2f2;
+    border-radius: 4px
+}
+
+.client-send a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.client--form-submit {
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    background: #78c2ff !important;
+    border: #4aa2f2 !important;
+    border-radius: 4px !important;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.client-send button:hover,
+.client--form-submit:hover {
+    background-color: #4aa2f2 !important;
+}
+
+.image-client{
+    text-align: center;
+}
+
+.image-client img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,52 @@
+body {
+    background: #f7f7f7;
+}
+
+.home-copy {
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-copy p {
+    margin-bottom: 40px;
+    margin: 20px 40px 40px 40px;
+}
+
+.navbar {
+    text-align: -webkit-center;
+}
+
+.navbar-button {
+    list-style-type: none;
+}
+
+.navbar-button button {
+    width: 110px;
+    height: 40px;
+    background-color: #78c2ff;
+    border: 1px solid #4aa2f2;
+    border-radius: 4px;
+    /* display: block;
+    margin-top: 10px; */
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+
+.navbar-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-button button:hover {
+    background-color: #4aa2f2;
+}
+
+.image-cadastro {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
