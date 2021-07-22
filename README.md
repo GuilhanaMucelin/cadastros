@@ -23,7 +23,7 @@
 </h2>
 
 <p>
-    O projeto está concluído, podendo receber futuras melhorias. Caso queira acessar ele está disponível no Netlify através deste <a href="">link</a>.
+    O projeto está concluído, podendo receber futuras melhorias. Caso queira acessar ele está disponível no Netlify através deste <a href="https://gestaodecadastros.netlify.app">link</a>.
 </p>
 
 <h2>
